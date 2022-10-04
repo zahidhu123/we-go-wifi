@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding: 15px 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brand-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
+
+.manu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  width: 15%;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.item-wrapper {
+  display: flex;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.li-item {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-right: 60px;
+  letter-spacing: 2px;
+}
+.try-now{
+  display: flex;
+  align-items: center;
+}
+.right-arrow{
+  padding-left: 10px;
+  font-size: 24px;
+  
+}
+.join-now {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.back-wrapper {
+  width: 100%;
+  height: 500px;
+  background-image: url(./assets/car-internet.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 25px;
+}
+
+.back-img{
+
+}
+
+.main-title {
+  font-size: 61px;
+  width: 40%;
+  font-weight: 600;
+  line-height: 71px;
+  color: white;
+  text-transform: uppercase;
+}
+.title-wrapper{
+  padding: 15px;
+}
+
+.heading-wrapper{
+  margin-top: -52px;
+}
+
+
+.we-go{
+  color: #fff6f6;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 9px;
+}
+
+.exclusive-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 25px;
+}
+
+.exclusive-title{
+  font-size: 20p;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #329bc0;
+}
+
+.refferal-start{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 1px 25px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+.card-section{
+  background-color: #f1f1f1;
+  padding: 25px 0px;
+}
+.get-started {
+  width: 58%;
+  padding: 20px 5px;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.row{
+  width: 100%;
+}
+.column1{
+  width: 30%;
+}
+
+.column2{
+  width: 70%;
+}
+
